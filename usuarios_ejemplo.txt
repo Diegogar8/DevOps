@@ -1,0 +1,10 @@
+# Archivo de ejemplo para crear usuarios
+# Formato: usuario:shell:home:comentario:crear_home
+# crear_home puede ser: yes, YES, 1 (crear) o no, NO, 0 (no crear)
+
+juan:/bin/bash:/home/juan:Juan Pérez:yes
+maria:/bin/bash:/home/maria:María García:yes
+pedro:/bin/sh:/home/pedro:Pedro López:no
+admin:/bin/bash:/home/admin:Administrador del Sistema:yes
+testuser:/bin/bash:/home/testuser:Usuario de Prueba:1
+
