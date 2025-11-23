@@ -1,0 +1,66 @@
+# Archivos de configuración con información sensible
+config.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Credenciales y secretos
+.env
+.env.local
+secrets/
+credentials.json
+aws-credentials.txt
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Archivos de sistema
+Thumbs.db
+.DS_Store
+
+
+
